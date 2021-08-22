@@ -1,0 +1,27 @@
+{
+  "name": "podcast-app",
+  "version": "1.0.0",
+  "description": "Podcast App",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Vladimir Arefev <i@vlarefyev.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "css-loader": "^3.4.1",
+    "style-loader": "^1.1.2"
+  }
+}
