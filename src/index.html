@@ -25,10 +25,15 @@
 
         <form class="mui-form" id="form">
           <div class="mui-textfield mui-textfield--float-label">
-            <input type="text" id="question-unput" required minlength="10" maxlength="256">
-            <label for="question-unput">Что хочешь спросить?</label>
+            <input type="text" id="question-input" required minlength="10" maxlength="256">
+            <label for="question-input">Что хочешь спросить?</label>
           </div>
-          <button type="submit" class="mui-btn mui-btn--raised mui-btn--primary">
+          <button 
+          type="submit" 
+          class="mui-btn mui-btn--raised mui-btn--primary"
+          id='submit'
+          disabled
+          >
             Задать вопрос
           </button>
         </form>
